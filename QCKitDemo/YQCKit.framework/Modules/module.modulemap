@@ -1,0 +1,11 @@
+framework module YQCKit {
+  umbrella header "YQCKit.h"
+
+  export *
+  module * { export * }
+}
+
+module YQCKit.Swift {
+    header "YQCKit-Swift.h"
+    requires objc
+}

@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  QCKitDemo
+//
+//  Created by yanqunchao on 2019/11/23.
+//  Copyright © 2019 yanqunchao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+
+
+#define WIDTH_SCREEN         [UIScreen mainScreen].bounds.size.width
+#define HEIGHT_SCREEN        [UIScreen mainScreen].bounds.size.height
+#define STATUS_BARHEIGHT  [UIApplication sharedApplication].statusBarFrame.size.height
+
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_X ((IS_IPHONE && HEIGHT_SCREEN == 812.0)? YES : NO)
+#define NavHFit          (IS_IPHONE_X ? 88 : 64)
+#define BottomYFit       (IS_IPHONE_X ? 43 : 0)
+
+
+#if defined(__LP64__) && __LP64__
+# define CGFLOAT_TYPE double
+# define CGFLOAT_IS_DOUBLE 1
+# define CGFLOAT_MIN DBL_MIN
+# define CGFLOAT_MAX DBL_MAX
+#else
+# define CGFLOAT_TYPE float
+# define CGFLOAT_IS_DOUBLE 0
+# define CGFLOAT_MIN FLT_MIN
+# define CGFLOAT_MAX FLT_MAX
+
+#endif
+
+
+#define weakSelf(x)      typeof(x) __weak weakSelf = x
+
+#endif /* PrefixHeader_pch */

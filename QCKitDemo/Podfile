@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'QCKitDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for QCKitDemo
+ 
+   pod 'Kingfisher'#图片加载库SDWebImage
+   pod 'SVProgressHUD'#简单易用的HUD,类似MBProgressHUD
+   pod 'FDFullscreenPopGesture'#手势左滑返回
+   pod 'SwiftyJSON'#json数据解析的
+
+end
