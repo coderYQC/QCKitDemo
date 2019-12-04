@@ -12,6 +12,6 @@
 #import "PrefixHeader.pch"
 
 #import "MJRefresh.h"
-
+#import "IQKeyboardManager.h"
 
 #endif /* QCKitDemo_Bridging_Header_h */

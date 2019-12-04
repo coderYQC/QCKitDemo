@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+import YQCKit
 class DemoItemCell: UICollectionViewCell {
 
+    @IBOutlet weak var titleLab: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.titleLab.layer.borderColor = UIColor.qc_randomColor().cgColor
+        self.titleLab.layer.borderWidth = 1
     }
-
 }

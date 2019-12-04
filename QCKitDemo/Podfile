@@ -11,5 +11,5 @@ target 'QCKitDemo' do
    pod 'SVProgressHUD'#简单易用的HUD,类似MBProgressHUD
    pod 'FDFullscreenPopGesture'#手势左滑返回
    pod 'SwiftyJSON'#json数据解析的
-
+   pod 'IQKeyboardManager'#键盘处理
 end

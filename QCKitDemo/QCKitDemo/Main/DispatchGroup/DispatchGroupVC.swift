@@ -7,24 +7,24 @@
 //
 
 import UIKit
-
+import YQCKit
 class DispatchGroupVC: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.navigationItem.title = "DispatchGroupDemo"
+        QCDispatchGroup([load1,load2], {
+            print("都成功")
+        }) {
+            print("没有都成功")
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func load1(success:NullClosure?,fail:NullClosure?){
+//        success?()
+        fail?()
     }
-    */
-
+    func load2(success:NullClosure?,fail:NullClosure?){
+        success?()
+    }
 }

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
       
+        
+        //键盘处理
+        IQKeyboardManager.shared().isEnabled = true//控制整个功能是否启用
+        IQKeyboardManager.shared().shouldShowToolbarPlaceholder = true//控制是否在键盘标题位置展示占位符文字
+        IQKeyboardManager.shared().shouldResignOnTouchOutside = true //控制点击背景是否收起键盘
+        
+        
         window?.rootViewController = MainNavigationController(rootViewController: ViewController())
         
         

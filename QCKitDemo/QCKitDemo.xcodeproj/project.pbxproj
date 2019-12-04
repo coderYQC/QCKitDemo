@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062D82AB2394A37A005F78D8 /* UILabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062D82AA2394A37A005F78D8 /* UILabelVC.swift */; };
+		062D82AE2394AB18005F78D8 /* NotificationCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062D82AD2394AB18005F78D8 /* NotificationCenterVC.swift */; };
+		062D82B12394AC4D005F78D8 /* KVOVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062D82B02394AC4D005F78D8 /* KVOVC.swift */; };
+		062D82B42394ADD0005F78D8 /* DispatchGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062D82B32394ADD0005F78D8 /* DispatchGroupVC.swift */; };
+		062D82B72394AF01005F78D8 /* DemoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062D82B52394AF01005F78D8 /* DemoItemCell.swift */; };
+		062D82B82394AF01005F78D8 /* DemoItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062D82B62394AF01005F78D8 /* DemoItemCell.xib */; };
 		065D7C1F2388C7AB00A048D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7C1E2388C7AB00A048D1 /* AppDelegate.swift */; };
 		065D7C212388C7AB00A048D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7C202388C7AB00A048D1 /* ViewController.swift */; };
 		065D7C242388C7AB00A048D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065D7C222388C7AB00A048D1 /* Main.storyboard */; };
@@ -44,6 +50,12 @@
 		065D7C942388D1F600A048D1 /* RequestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7C932388D1F600A048D1 /* RequestUtil.swift */; };
 		065D7C952388D26400A048D1 /* YQCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065D7C902388D15300A048D1 /* YQCKit.framework */; };
 		065D7C962388D26400A048D1 /* YQCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 065D7C902388D15300A048D1 /* YQCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		065D7C9B2388D68000A048D1 /* UIViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7C9A2388D68000A048D1 /* UIViewVC.swift */; };
+		065D7C9E2388DD3D00A048D1 /* UIButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7C9D2388DD3D00A048D1 /* UIButtonVC.swift */; };
+		065D7CA12388EC8300A048D1 /* UIImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7CA02388EC8300A048D1 /* UIImageViewVC.swift */; };
+		065D7CA42388F3F700A048D1 /* UITextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7CA32388F3F700A048D1 /* UITextFieldVC.swift */; };
+		065D7CA7238B701000A048D1 /* UITextViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7CA6238B701000A048D1 /* UITextViewVC.swift */; };
+		065D7CAA238B755E00A048D1 /* UIAlertControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D7CA9238B755E00A048D1 /* UIAlertControllerVC.swift */; };
 		E0992CF2B546DC2D8CAB1121 /* Pods_QCKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A9BB8C508F1F9DEE3F7217 /* Pods_QCKitDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +74,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		062D82AA2394A37A005F78D8 /* UILabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelVC.swift; sourceTree = "<group>"; };
+		062D82AD2394AB18005F78D8 /* NotificationCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterVC.swift; sourceTree = "<group>"; };
+		062D82B02394AC4D005F78D8 /* KVOVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOVC.swift; sourceTree = "<group>"; };
+		062D82B32394ADD0005F78D8 /* DispatchGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupVC.swift; sourceTree = "<group>"; };
+		062D82B52394AF01005F78D8 /* DemoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoItemCell.swift; sourceTree = "<group>"; };
+		062D82B62394AF01005F78D8 /* DemoItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoItemCell.xib; sourceTree = "<group>"; };
 		065D7C1B2388C7AB00A048D1 /* QCKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		065D7C1E2388C7AB00A048D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		065D7C202388C7AB00A048D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +140,12 @@
 		065D7C862388D11300A048D1 /* APIConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConst.swift; sourceTree = "<group>"; };
 		065D7C902388D15300A048D1 /* YQCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YQCKit.framework; sourceTree = SOURCE_ROOT; };
 		065D7C932388D1F600A048D1 /* RequestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestUtil.swift; sourceTree = "<group>"; };
+		065D7C9A2388D68000A048D1 /* UIViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewVC.swift; sourceTree = "<group>"; };
+		065D7C9D2388DD3D00A048D1 /* UIButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonVC.swift; sourceTree = "<group>"; };
+		065D7CA02388EC8300A048D1 /* UIImageViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewVC.swift; sourceTree = "<group>"; };
+		065D7CA32388F3F700A048D1 /* UITextFieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldVC.swift; sourceTree = "<group>"; };
+		065D7CA6238B701000A048D1 /* UITextViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewVC.swift; sourceTree = "<group>"; };
+		065D7CA9238B755E00A048D1 /* UIAlertControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerVC.swift; sourceTree = "<group>"; };
 		73785FFEC7D9501042E91F8A /* Pods-QCKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-QCKitDemo/Pods-QCKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C3A9BB8C508F1F9DEE3F7217 /* Pods_QCKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA4197BE8D2A3A01DE05909 /* Pods-QCKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCKitDemo.release.xcconfig"; path = "Target Support Files/Pods-QCKitDemo/Pods-QCKitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +164,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062D82A92394A35D005F78D8 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				062D82AA2394A37A005F78D8 /* UILabelVC.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		062D82AC2394AAF8005F78D8 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				062D82AD2394AB18005F78D8 /* NotificationCenterVC.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		062D82AF2394AC3B005F78D8 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				062D82B02394AC4D005F78D8 /* KVOVC.swift */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		062D82B22394ADA9005F78D8 /* DispatchGroup */ = {
+			isa = PBXGroup;
+			children = (
+				062D82B32394ADD0005F78D8 /* DispatchGroupVC.swift */,
+			);
+			path = DispatchGroup;
+			sourceTree = "<group>";
+		};
 		065D7C122388C7AB00A048D1 = {
 			isa = PBXGroup;
 			children = (
@@ -161,12 +217,15 @@
 		065D7C1D2388C7AB00A048D1 /* QCKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				065D7C982388D5E700A048D1 /* Main */,
 				065D7C922388D1D400A048D1 /* Util */,
 				065D7C902388D15300A048D1 /* YQCKit.framework */,
 				065D7C782388D11300A048D1 /* Base */,
 				065D7C342388D05700A048D1 /* Vendors */,
 				065D7C1E2388C7AB00A048D1 /* AppDelegate.swift */,
 				065D7C202388C7AB00A048D1 /* ViewController.swift */,
+				062D82B52394AF01005F78D8 /* DemoItemCell.swift */,
+				062D82B62394AF01005F78D8 /* DemoItemCell.xib */,
 				065D7C222388C7AB00A048D1 /* Main.storyboard */,
 				065D7C252388C7AE00A048D1 /* Assets.xcassets */,
 				065D7C272388C7AE00A048D1 /* LaunchScreen.storyboard */,
@@ -344,6 +403,71 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		065D7C982388D5E700A048D1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				062D82B22394ADA9005F78D8 /* DispatchGroup */,
+				062D82AF2394AC3B005F78D8 /* KVO */,
+				062D82AC2394AAF8005F78D8 /* NotificationCenter */,
+				062D82A92394A35D005F78D8 /* UILabel */,
+				065D7CA8238B74ED00A048D1 /* UIAlertController */,
+				065D7CA5238B6FF800A048D1 /* UITextView */,
+				065D7CA22388F3E000A048D1 /* UITextField */,
+				065D7C9F2388EC6A00A048D1 /* UIImageView */,
+				065D7C9C2388DD2800A048D1 /* UIButton */,
+				065D7C992388D5F800A048D1 /* UIView */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		065D7C992388D5F800A048D1 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				065D7C9A2388D68000A048D1 /* UIViewVC.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		065D7C9C2388DD2800A048D1 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				065D7C9D2388DD3D00A048D1 /* UIButtonVC.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		065D7C9F2388EC6A00A048D1 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				065D7CA02388EC8300A048D1 /* UIImageViewVC.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		065D7CA22388F3E000A048D1 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				065D7CA32388F3F700A048D1 /* UITextFieldVC.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		065D7CA5238B6FF800A048D1 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				065D7CA6238B701000A048D1 /* UITextViewVC.swift */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		065D7CA8238B74ED00A048D1 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				065D7CA9238B755E00A048D1 /* UIAlertControllerVC.swift */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
 		202BB2C504BEC8398881F747 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,6 +547,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				065D7C292388C7AE00A048D1 /* LaunchScreen.storyboard in Resources */,
+				062D82B82394AF01005F78D8 /* DemoItemCell.xib in Resources */,
 				065D7C262388C7AE00A048D1 /* Assets.xcassets in Resources */,
 				065D7C662388D06600A048D1 /* MJRefresh.bundle in Resources */,
 				065D7C242388C7AB00A048D1 /* Main.storyboard in Resources */,
@@ -479,32 +604,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				065D7C8F2388D11300A048D1 /* APIConst.swift in Sources */,
+				065D7C9E2388DD3D00A048D1 /* UIButtonVC.swift in Sources */,
 				065D7C652388D06600A048D1 /* MJRefreshConst.m in Sources */,
 				065D7C682388D06600A048D1 /* NSBundle+MJRefresh.m in Sources */,
+				062D82B42394ADD0005F78D8 /* DispatchGroupVC.swift in Sources */,
+				062D82B72394AF01005F78D8 /* DemoItemCell.swift in Sources */,
 				065D7C212388C7AB00A048D1 /* ViewController.swift in Sources */,
 				065D7C692388D06600A048D1 /* UIView+MJExtension.m in Sources */,
 				065D7C872388D11300A048D1 /* QCCollectionViewExtension.swift in Sources */,
+				062D82AE2394AB18005F78D8 /* NotificationCenterVC.swift in Sources */,
 				065D7C8D2388D11300A048D1 /* BaseViewController.swift in Sources */,
+				065D7CA7238B701000A048D1 /* UITextViewVC.swift in Sources */,
 				065D7C892388D11300A048D1 /* UIButton+Extension.swift in Sources */,
 				065D7C8E2388D11300A048D1 /* BaseJSONViewModel.swift in Sources */,
 				065D7C722388D06600A048D1 /* MJRefreshGifHeader.m in Sources */,
 				065D7C1F2388C7AB00A048D1 /* AppDelegate.swift in Sources */,
 				065D7C6C2388D06600A048D1 /* MJRefreshBackNormalFooter.m in Sources */,
+				062D82B12394AC4D005F78D8 /* KVOVC.swift in Sources */,
 				065D7C732388D06600A048D1 /* MJRefreshFooter.m in Sources */,
 				065D7C6F2388D06600A048D1 /* MJRefreshAutoNormalFooter.m in Sources */,
+				065D7CA12388EC8300A048D1 /* UIImageViewVC.swift in Sources */,
 				065D7C642388D06600A048D1 /* UIScrollView+MJRefresh.m in Sources */,
 				065D7C8C2388D11300A048D1 /* BarButtomIten+Extension.swift in Sources */,
+				062D82AB2394A37A005F78D8 /* UILabelVC.swift in Sources */,
 				065D7C762388D06600A048D1 /* MJRefreshAutoFooter.m in Sources */,
 				065D7C772388D06600A048D1 /* MJRefreshComponent.m in Sources */,
 				065D7C6E2388D06600A048D1 /* MJRefreshAutoGifFooter.m in Sources */,
 				065D7C6D2388D06600A048D1 /* MJRefreshAutoStateFooter.m in Sources */,
+				065D7CAA238B755E00A048D1 /* UIAlertControllerVC.swift in Sources */,
 				065D7C712388D06600A048D1 /* MJRefreshStateHeader.m in Sources */,
 				065D7C942388D1F600A048D1 /* RequestUtil.swift in Sources */,
 				065D7C742388D06600A048D1 /* MJRefreshHeader.m in Sources */,
 				065D7C752388D06600A048D1 /* MJRefreshBackFooter.m in Sources */,
 				065D7C702388D06600A048D1 /* MJRefreshNormalHeader.m in Sources */,
+				065D7CA42388F3F700A048D1 /* UITextFieldVC.swift in Sources */,
 				065D7C672388D06600A048D1 /* UIScrollView+MJExtension.m in Sources */,
 				065D7C6A2388D06600A048D1 /* MJRefreshBackGifFooter.m in Sources */,
+				065D7C9B2388D68000A048D1 /* UIViewVC.swift in Sources */,
 				065D7C882388D11300A048D1 /* QCTableViewExtension.swift in Sources */,
 				065D7C8A2388D11300A048D1 /* UIView+Extension.swift in Sources */,
 				065D7C8B2388D11300A048D1 /* MainNavigationController.swift in Sources */,

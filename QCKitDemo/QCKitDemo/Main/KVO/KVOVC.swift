@@ -1,3 +1,5 @@
+
+
 //
 //  KVOVC.swift
 //  QCKitDemo
@@ -7,24 +9,20 @@
 //
 
 import UIKit
-
+import YQCKit
 class KVOVC: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.navigationItem.title = "KVODemo"
+         
+        QCKVO_ADD(self, observed: (self.view,"backgroundColor")) {[weak self] (change) in
+            print(self!.view.backgroundColor!)
+        }
+        self.view.backgroundColor = .red
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    deinit {//移除kvo监听
+        QCKVO_REMOVE(self)
     }
-    */
 
 }

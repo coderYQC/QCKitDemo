@@ -12,19 +12,21 @@ class NotificationCenterVC: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.navigationItem.title = "NotificationCenterDemo"
+        
+        NotificationCenter.default.qc_addNotication(observer: self, name: "test") { (noti) in
+            let noti = noti.userInfo as! [String:String]
+            print("收到了aaa的通知----\(noti["testKey"] ?? "")")
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let userInfo = ["testKey":"test"]
+        NotificationCenter.default.qc_postNotication(name: "test", userInfo: userInfo)
     }
-    */
 
+    deinit {//移除通知
+//        NotificationCenter.default.qc_removeNotication(observer: self, name: "test")
+        NotificationCenter.default.qc_removeAllNotication(observer: self)
+    }
 }

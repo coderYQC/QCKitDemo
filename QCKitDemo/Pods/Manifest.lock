@@ -1,13 +1,13 @@
 PODS:
   - FDFullscreenPopGesture (1.1)
-  - Kingfisher (5.10.1):
-    - Kingfisher/Core (= 5.10.1)
-  - Kingfisher/Core (5.10.1)
+  - IQKeyboardManager (6.5.4)
+  - Kingfisher (4.10.1)
   - SVProgressHUD (2.2.5)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - FDFullscreenPopGesture
+  - IQKeyboardManager
   - Kingfisher
   - SVProgressHUD
   - SwiftyJSON
@@ -15,16 +15,18 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FDFullscreenPopGesture
+    - IQKeyboardManager
     - Kingfisher
     - SVProgressHUD
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  Kingfisher: eb36b7dfcc78d60877051c92c119a2865972961a
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 38c9adc19e83b5f73fb1eac6af695cf620b45400
+PODFILE CHECKSUM: 852649c3fa2b812b6dbe781f7418987d17c78428
 
 COCOAPODS: 1.7.0.beta.3

@@ -342,6 +342,7 @@ SWIFT_CLASS("_TtC6YQCKit15QCPadddingLabel")
 - (QCPadddingLabel * _Nonnull)removeAction SWIFT_WARN_UNUSED_RESULT;
 - (void)removeTap;
 - (QCPadddingLabel * _Nonnull)textInsets:(UIEdgeInsets)textInsets SWIFT_WARN_UNUSED_RESULT;
+- (QCPadddingLabel * _Nonnull)fitSize SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -743,6 +744,7 @@ SWIFT_CLASS("_TtC6YQCKit17QCWaterFlowLayout")
 - (UILabel * _Nonnull)numberOfLines:(NSInteger)numberOfLines SWIFT_WARN_UNUSED_RESULT;
 - (UILabel * _Nonnull)font:(UIFont * _Nonnull)font SWIFT_WARN_UNUSED_RESULT;
 - (UILabel * _Nonnull)textInsets:(UIEdgeInsets)textInsets SWIFT_WARN_UNUSED_RESULT;
+- (UILabel * _Nonnull)fitSize SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
